@@ -29,17 +29,14 @@
       <a mat-button href="#">{{ 'landingpage.inicio' | translate }}</a>
       <a mat-button href="#">{{ 'landingpage.Conoce' | translate }}</a>
       <a mat-button href="#">{{ 'landingpage.AcercaNosotros' | translate }}</a>
-      <a mat-button href="https://learnefrontend.web.app/home">{{ 'landingpage.LogIn' | translate }}</a>
-      <a mat-button href="https://learnefrontend.web.app/home">{{ 'landingpage.Registrarse' | translate }}</a>
+      <a mat-button href="https://learnefrontend.web.app/mainToolbar/home">{{ 'landingpage.LogIn' | translate }}</a>
+      <a mat-button href="https://learnefrontend.web.app/mainToolbar/home">{{ 'landingpage.Registrarse' | translate }}</a>
       <div class="button-language-container">
         <app-language-switcher></app-language-switcher>
       </div>
     </div>
   </div>
 </mat-toolbar>
-
-
-
 
 <main id="main">
   <section class="bg-body-tertiary py-5" style="background-image: url(https://imgur.com/ybZtdhW.jpg); color:white">
@@ -59,7 +56,7 @@
             <br>
             <div class="d-flex flex-column flex-lg-row align-items-center">
               <!-- Botón Comienza Ahora usando Angular Material -->
-              <a mat-flat-button color="primary" [routerLink]="['/home']" style="border-radius: 5px; width: 200px;background-color: #6600CD;color:white">
+              <a mat-flat-button color="primary" href="https://learnefrontend.web.app/mainToolbar/home" style="border-radius: 5px; width: 200px;background-color: #6600CD;color:white">
                 Comienza Ahora
               </a>
             </div>
@@ -318,7 +315,7 @@
           </mat-card-content>
           <mat-card-actions class="d-flex flex-row w-100 mb-3 text-center">
             <a mat-button
-               href="https://learnefrontend.web.app/home"
+               href="https://learnefrontend.web.app/mainToolbar/home"
                class="btn btn-purple text-white">
               Suscríbete
             </a>          </mat-card-actions>
@@ -341,7 +338,7 @@
           </mat-card-content>
           <mat-card-actions class="d-flex flex-row w-100 mb-3 text-center">
             <a mat-button
-               href="https://learnefrontend.web.app/home"
+               href="https://learnefrontend.web.app/mainToolbar/home"
                class="btn btn-purple text-white">
               {{ 'landingpage.Suscríbete' | translate }}
             </a>          </mat-card-actions>
