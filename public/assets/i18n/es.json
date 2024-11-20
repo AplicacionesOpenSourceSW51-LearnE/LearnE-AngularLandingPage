@@ -174,9 +174,9 @@
     "price": "Free S/. 0 al mes"
   },
   "feature":{
-    "features": "Máximo 3 cursos inscritos a la vez",
-    "features2":"Sin tutorías personalizadas",
-    "features3": "Sin certificados"
+    "features": "Máximo 3 cursos inscritos",
+    "features2":"Sin acceso a tutorías",
+    "features3": "Sin materiales extras"
   },
   "learner": {
     "price": "Learner S/. 20 al mes"
@@ -184,7 +184,7 @@
   "feature2":{
     "features": "Inscríbete a cursos ilimitados",
     "features2":"Tutorías personalizadas",
-    "features3": "Acceso a certificados"
+    "features3": "Acceso a materiales extras"
   },
 
   "contactInfo": {
@@ -208,9 +208,15 @@
   },
   "appLinks": {
     "googlePlay": "logo_googlePlay"
+  },
+  "aboutUs": {
+    "introduction": "Somos una plataforma de aprendizaje en línea dedicada a proporcionar educación innovadora y accesible. Nuestro equipo está formado por educadores y profesionales apasionados comprometidos con el éxito de los estudiantes y su crecimiento en su camino de aprendizaje.",
+    "value1": "Innovación: Siempre estamos explorando nuevas formas de mejorar la experiencia de aprendizaje y ayudar a los estudiantes a prosperar.",
+    "value2": "Integridad: Creemos en ofrecer una educación honesta y de alta calidad, fomentando una cultura de confianza.",
+    "value3": "Compromiso: Estamos dedicados al éxito de nuestros estudiantes y al crecimiento de sus habilidades, brindando apoyo continuo a lo largo del camino.",
+    "aboutus": "Sobre nosotros",
+    "ourvalues": "Nuestros valores",
+    "videoproduct": "Aprende más sobre el producto",
+    "videoteam": "Aprende más sobre el grupo"
   }
-
-
-
-
 }

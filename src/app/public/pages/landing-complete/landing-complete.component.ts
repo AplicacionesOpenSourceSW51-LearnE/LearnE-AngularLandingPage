@@ -29,7 +29,6 @@ import {LanguageSwitcherComponent} from "../../components/language-switcher/lang
     CommonModule,
     MatCardModule,
     MatGridListModule,
-    RouterLink,
     MatIcon,
     MatToolbar,
     MatToolbarModule,
@@ -63,5 +62,6 @@ import {LanguageSwitcherComponent} from "../../components/language-switcher/lang
 
 })
 export class LandingCompleteComponent {
+
 
 }

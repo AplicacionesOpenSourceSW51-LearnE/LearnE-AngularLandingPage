@@ -178,14 +178,14 @@
 
   },
   "feature":{
-    "features": "Maximum 3 courses enrolled at a time",
+    "features": "Maximum 3 courses enrolled",
     "features2":"No personalized tutoring",
-    "features3": "No certificates"
+    "features3": "No access to extra material"
   },
   "feature2":{
     "features": "Sign up for unlimited courses",
     "features2":"Personalized tutoring",
-    "features3": "Access to certificates"
+    "features3": "Access to extra material"
   },
   "contactInfo": {
     "email": "support.learne@gmail.com",
@@ -208,6 +208,16 @@
   },
   "appLinks": {
     "googlePlay": "logo_googlePlay"
+  },
+  "aboutUs": {
+    "introduction": "We are an online learning platform dedicated to providing innovative and accessible education. Our team consists of passionate educators and professionals committed to helping students succeed and grow in their learning journey.",
+    "value1": "Innovation: We are constantly exploring new ways to enhance the learning experience and help students thrive.",
+    "value2": "Integrity: We believe in delivering honest, high-quality education and fostering a culture of trust.",
+    "value3": "Commitment: We are dedicated to the success of our learners and the growth of their skills, providing continuous support along the way.",
+    "aboutus": "About us",
+    "ourvalues": "Our values",
+    "videoproduct": "Learn more about the product",
+    "videoteam": "Learn more about the team"
   }
 }
 
