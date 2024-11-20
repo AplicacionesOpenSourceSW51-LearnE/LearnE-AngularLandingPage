@@ -1,0 +1,546 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <title>LearnE</title>
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- ICONS -->
+  <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Tipo de letra -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<!-- nav bar-->
+
+<mat-toolbar color="primary" class="navbar">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+      <img src="https://imgur.com/rsHt2cA.jpeg" alt="_logo" class="logo">
+    </a>
+    <span class="spacer"></span>
+    <div class="navbar-links">
+      <a mat-button href="#">{{ 'landingpage.inicio' | translate }}</a>
+      <a mat-button href="#">{{ 'landingpage.Conoce' | translate }}</a>
+      <a mat-button href="#">{{ 'landingpage.AcercaNosotros' | translate }}</a>
+      <a mat-button href="https://learnefrontend.web.app/home">{{ 'landingpage.LogIn' | translate }}</a>
+      <a mat-button href="https://learnefrontend.web.app/home">{{ 'landingpage.Registrarse' | translate }}</a>
+      <div class="button-language-container">
+        <app-language-switcher></app-language-switcher>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
+
+
+
+
+<main id="main">
+  <section class="bg-body-tertiary py-5" style="background-image: url(https://imgur.com/ybZtdhW.jpg); color:white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-7 text-center text-lg-start d-flex flex-column justify-content-center">
+
+          <!-- Título y descripción con Material -->
+          <mat-card class="mat-card">
+            <h1 class="display-7 fw-semibold lh-base">
+              {{ 'landingpage.slogan' | translate }}
+            </h1>
+            <br>
+            <p class="fs-5" style="line-height: 2.2rem;">
+              {{ 'landingpage.description' | translate }}
+            </p>
+            <br>
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+              <!-- Botón Comienza Ahora usando Angular Material -->
+              <a mat-flat-button color="primary" [routerLink]="['/home']" style="border-radius: 5px; width: 200px;background-color: #6600CD;color:white">
+                Comienza Ahora
+              </a>
+            </div>
+          </mat-card>
+
+        </div>
+        <div class="col-12 col-lg-5 d-flex justify-content-center">
+          <!-- Aquí puedes agregar imágenes, gráficos, o contenido adicional -->
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="bg-body-coro py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7 text-center text-lg-start d-flex flex-column justify-content-center">
+        <!-- Título y Descripción -->
+        <mat-card class="mat-card">
+          <h1 class="display-7 fw-semibold lh-base">
+            {{ 'landingpage.subscribeText' | translate }}
+          </h1>
+          <br>
+          <p class="fs-5" style="line-height: 2.2rem;">
+            {{ 'landingpage.learnMore' | translate }}
+          </p>
+          <br>
+        </mat-card>
+      </div>
+
+      <!-- Imagen en el lado derecho -->
+      <div class="col-12 col-lg-5 d-flex justify-content-center">
+
+        <img class="img-fluid mt-4 my-lg-0" src="https://imgur.com/HR8ESH0.png" alt="math_one" style="width: 700px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="image-gallery">
+  <mat-grid-list cols="3" rowHeight="600px" gutterSize="90px">
+    <mat-grid-tile>
+      <mat-card class="mat-card">
+        <img mat-card-image src="https://imgur.com/lxFeMGg.jpg" alt="Imagen 1">
+        <mat-card-content>
+          <h2>
+            {{ 'landingpage.coursesWithMaterial' | translate }}
+          </h2>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="mat-card">
+        <img mat-card-image src="https://imgur.com/Wlotpz0.jpg" alt="Imagen 2">
+        <mat-card-content>
+          <h2>{{ 'landingpage.trainedTutors' | translate }}</h2>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card class="mat-card">
+        <img mat-card-image src="https://imgur.com/46S6z5C.jpeg" alt="Imagen 3">
+        <mat-card-content>
+          <h2>{{ 'landingpage.varietySubjects' | translate }}</h2>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+
+<section id="services" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h1 class="display-4 fw-semibold">{{'landingpage.categoriesTitle'| translate }}
+
+          </h1>
+          <br>
+          <p class="fs-5" style="line-height: 2.2rem">{{'landingpage.falta'| translate }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 text-center">
+      <mat-grid-list cols="3" rowHeight="200px" rowWidht="400px" gutterSize="20px">
+        <!-- Cálculo -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-5 p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/13U1uNj.png" alt="Cálculo" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">
+                {{ 'categories.calculo' | translate }}
+              </h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+
+        <!-- Física -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-6  p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/UXc9NCN.png" alt="Física" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">{{ 'categories.fisica' | translate }}</h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+
+        <!-- Química -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-5 p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/2VHHYWc.png" alt="Química" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">{{ 'categories.quimica' | translate }}</h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+
+        <!-- Programación -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-5 p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/BP2yVOt.png" alt="Programación" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">{{ 'categories.programacion' | translate }}</h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+
+        <!-- Política y actualidad -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-5 p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/dFBsY8w.png" alt="Política y actualidad" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">{{ 'categories.politica' | translate }} </h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+
+        <!-- Física (duplicado) -->
+        <mat-grid-tile>
+          <mat-card class="service shadow-sm p-lg-5 p-4">
+            <div class="iconbox">
+              <img mat-card-image src="https://imgur.com/k7Z4CpR.png" alt="Física" style="width: 50px; height: 50px;">
+            </div>
+            <mat-card-content>
+              <h5 class="mt-4 mb-3">{{ 'categories.fisica' | translate }}</h5>
+            </mat-card-content>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </div>
+</section>
+
+<section class="bg-body-tertiary testimonials py-5">
+  <div class="container">
+    <div class="row pb-5">
+      <div class="text-center">
+        <h1 class="display-4 fw-semibold">{{ 'landingpage.testimonialsTitle' | translate }}
+        </h1>
+        <br>
+        <blockquote class="fs-5">{{ 'landingpage.falta2' | translate }}</blockquote>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-center pt-5">
+      <!-- Testimonio 1 -->
+      <div class="col-12 col-md-4">
+        <mat-card class="profile border shadow-sm text-center">
+          <div class="testimonial-picture-person">
+            <img mat-card-image src="https://imgur.com/qdNrX6K.jpg" class="user" alt="_JuanAntonioMoroco">
+          </div>
+          <mat-card-content>
+            <h4 class="fs-4 mt-3">Daniel Velarde</h4>
+            <span>{{ 'testimonial1.role' | translate }}</span>
+            <blockquote class="mt-4">
+              {{ 'testimonial1.quote' | translate }}
+            </blockquote>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- Testimonio 2 -->
+      <div class="col-12 col-md-4">
+        <mat-card class="profile border shadow-sm text-center">
+          <div class="testimonial-picture-person">
+            <img mat-card-image src="https://imgur.com/8gRXaAB.jpg" class="user" alt="loka">
+          </div>
+          <mat-card-content>
+            <h4 class="fs-4 mt-3">Susana Almeida</h4>
+            <span>{{ 'testimonial2.role' | translate }}</span>
+            <blockquote class="mt-4">
+              {{ 'testimonial2.quote' | translate }}            </blockquote>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- Testimonio 3 -->
+      <div class="col-12 col-md-4">
+        <mat-card class="profile border shadow-sm text-center">
+          <div class="testimonial-picture-person">
+            <img mat-card-image src="https://imgur.com/3K6rp6S.jpg" class="user" alt="rota">
+          </div>
+          <mat-card-content>
+            <h4 class="fs-4 mt-3">Samuel De Luque</h4>
+            <span>{{ 'testimonial3.role' | translate }}</span>
+            <blockquote class="mt-4">
+              {{ 'testimonial3.quote' | translate }}   </blockquote>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="plains py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h2 class="display-4 fw-semibold">{{ 'landingpage.plansTitle' | translate }} </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5 justify-content-center">
+      <!-- Plan Free -->
+      <div class="col-lg-5 col-12">
+        <mat-card class="plains_info p-3">
+          <mat-card-title class="text-center">
+            <h1>{{ 'plans.price' | translate }}</h1>
+          </mat-card-title>
+          <mat-card-content class="benefits text-lg-start my-5">
+            <div class="d-flex justify-content-center">
+              <ul class="d-flex flex-column align-items-center gap-3" style="margin: 0;">
+                <li class="fs-6">{{ 'feature.features' | translate }}</li>
+                <li class="fs-6">{{ 'feature.features2' | translate }}</li>
+                <li class="fs-6">{{ 'feature.features3' | translate }}</li>
+              </ul>
+            </div>
+
+          </mat-card-content>
+          <mat-card-actions class="d-flex flex-row w-100 mb-3 text-center">
+            <a mat-button
+               href="https://learnefrontend.web.app/home"
+               class="btn btn-purple text-white">
+              Suscríbete
+            </a>          </mat-card-actions>
+        </mat-card>
+      </div>
+      <!-- Plan Learner -->
+      <div class="col-lg-5 col-12">
+        <mat-card class="plains_info p-3">
+          <mat-card-title class="text-center">
+            <h1>{{ 'learner.price' | translate }} </h1>
+          </mat-card-title>
+          <mat-card-content class="benefits text-lg-start my-5">
+            <div class="d-flex justify-content-center">
+              <ul class="d-flex flex-column align-items-center gap-3" style="margin: 0;">
+                <li class="fs-6">{{ 'feature2.features' | translate }}</li>
+                <li class="fs-6">{{ 'feature2.features2' | translate }}</li>
+                <li class="fs-6">{{ 'feature2.features3' | translate }}</li>
+              </ul>
+            </div>
+          </mat-card-content>
+          <mat-card-actions class="d-flex flex-row w-100 mb-3 text-center">
+            <a mat-button
+               href="https://learnefrontend.web.app/home"
+               class="btn btn-purple text-white">
+              {{ 'landingpage.Suscríbete' | translate }}
+            </a>          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <img class="img-fluid" src="https://imgur.com/UlmFsFa.png" alt="image_contact">
+      </div>
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center mt-5 mt-lg-0">
+        <mat-card class="w-100">
+          <mat-card-header>
+            <mat-card-title class="text-center">
+              <h1 class="display-4 fw-semibold">{{ 'landingpage.contactTitle' | translate }}</h1>
+            </mat-card-title>
+            <mat-card-subtitle class="text-center fs-6">Soporte con ayuda de los mejores asesores</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="group_contact">
+              <!-- Email Contact -->
+              <mat-card class="contact-item my-3">
+                <mat-card-header>
+                  <mat-icon mat-card-avatar>email</mat-icon>
+                  <mat-card-title>Correo Electronico</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <p class="fs-6">{{ 'contactInfo.email' | translate }}</p>
+                </mat-card-content>
+              </mat-card>
+              <!-- Phone Contact -->
+              <mat-card class="contact-item my-3">
+                <mat-card-header>
+                  <mat-icon mat-card-avatar>phone</mat-icon>
+                  <mat-card-title>Teléfono</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <p class="fs-6">+51 01 505 0505</p>
+                </mat-card-content>
+              </mat-card>
+              <!-- Location Contact -->
+              <mat-card class="contact-item my-3">
+                <mat-card-header>
+                  <mat-icon mat-card-avatar>location_on</mat-icon>
+                  <mat-card-title>Ubicación</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <p class="fs-6">La Molina - Perú</p>
+                </mat-card-content>
+              </mat-card>
+              <!-- FAQ Contact -->
+              <mat-card class="contact-item my-3">
+                <mat-card-header>
+                  <mat-icon mat-card-avatar>question_answer</mat-icon>
+                  <mat-card-title>{{ 'landingpage.faqTitle' | translate }}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                  <p class="fs-6">Zona de preguntas - FAQ</p>
+                </mat-card-content>
+              </mat-card>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h1 class="display-4 fw-semibold">Comunícate con nosotros</h1>
+          <br>
+          <p class="fs-5">{{ 'landingpage.faqDescription' | translate }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-3">
+      <div class="col-lg-8">
+        <form class="row g-3 p-lg-5 p-4 bg-body-tertiary theme-shadow">
+          <div class="form-group col-lg-6">
+            <mat-form-field appearance="fill" class="w-100">
+              <mat-label>Nombre</mat-label>
+              <input matInput type="text" placeholder="Nombre">
+            </mat-form-field>
+          </div>
+          <div class="form-group col-lg-6">
+            <mat-form-field appearance="fill" class="w-100">
+              <mat-label>Apellido</mat-label>
+              <input matInput type="text" placeholder="Apellido">
+            </mat-form-field>
+          </div>
+          <div class="form-group col-lg-12">
+            <mat-form-field appearance="fill" class="w-100">
+              <mat-label>Email</mat-label>
+              <input matInput type="email" placeholder="Email">
+            </mat-form-field>
+          </div>
+          <div class="form-group col-lg-12">
+            <mat-form-field appearance="fill" class="w-100">
+              <mat-label>Tema</mat-label>
+              <input matInput type="text" placeholder="Tema">
+            </mat-form-field>
+          </div>
+          <div class="form-group col-lg-12">
+            <mat-form-field appearance="fill" class="w-100">
+              <mat-label>Mensaje</mat-label>
+              <textarea matInput rows="5" placeholder="Mensaje"></textarea>
+            </mat-form-field>
+          </div>
+          <div class="form-group col-lg-12 d-grid">
+            <button mat-raised-button color="primary" class="btn_send w-100">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- PIE DE PAGINA -->
+<footer id="footer" class="container-fluid mt-0 bg-dark">
+  <div class="row pt-4">
+    <div class="col-12 col-md-6 col-lg-3 py-3 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+      <div>
+        <h4 mat-subheader>{{ 'footer.company' | translate }}</h4>
+        <mat-list>
+          <mat-list-item><a mat-button href="#">Our Services</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Privacy Policy</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Affiliate Institutions</a></mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 py-3 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+      <div>
+        <h4 mat-subheader>{{ 'footer.getHelp' | translate }}</h4>
+        <mat-list>
+          <mat-list-item><a mat-button href="#">FAQ</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Progress</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Advisors</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Payment Options</a></mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 py-3 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+      <div>
+        <h4 mat-subheader>{{ 'footer.community' | translate }}</h4>
+        <mat-list>
+          <mat-list-item><a mat-button href="#">Our Story</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Developers</a></mat-list-item>
+          <mat-list-item><a mat-button href="#">Events</a></mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-3 py-3 d-flex flex-column justify-content-start align-items-start align-items-lg-center">
+      <div>
+        <h4 mat-subheader>{{ 'footer.followUs' | translate }}</h4>
+        <div class="social-links">
+          <a mat-icon-button href="#"><mat-icon>facebook</mat-icon></a>
+          <a mat-icon-button href="#"><mat-icon>twitter</mat-icon></a>
+          <br>
+          <a mat-icon-button href="#"><mat-icon>instagram</mat-icon></a>
+          <a mat-icon-button href="#"><mat-icon>youtube</mat-icon></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="separator my-4">
+
+    <div class="benefits d-flex flex-column align-items-center justify-content-center">
+      <p class="fs-5 text-white text-center">For more content, explore our Application. Let's start now</p>
+      <p class="fs-4 text-secondary fw-semibold">{{ 'footer.getApp' | translate }}</p>
+      <div class="container_logo d-flex flex-column flex-md-row flex-lg-row">
+        <img class="logo_google mb-3 mb-lg-0 mb-md-0 me-md-3 me-lg-3" src="https://imgur.com/vCh5ri3.png" alt="logo_googlePlay" width="120px"
+             height="50px">
+        <img class="logo_google mt-0 mt-lg-0 mt-md-0 me-md-3 ms-lg-3" src="https://imgur.com/9JGyrOX.png" alt="logo_googlePlay"width="120px"
+             height="50px">
+      </div>
+      <p class="fs-5 pt-3 text-white text-center">{{ 'landingpage.questionsSection' | translate }} <a mat-button href="#">Send email</a></p>
+      <p class="fs-6 pt-4 text-white text-center">{{ 'landingpage.copyright' | translate }}</p>
+    </div>
+  </div>
+
+  <a mat-fab class="btn_homePage shadow" href="#"><mat-icon>arrow_upward</mat-icon></a>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+

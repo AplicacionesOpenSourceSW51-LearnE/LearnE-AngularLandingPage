@@ -1,0 +1,215 @@
+{
+  "allPlans": {
+    "availablePlans": "Available plans",
+    "free": "Free",
+    "perMonth": "per month",
+    "f1Characteristic": "Maximum 3 courses enrolled at a time",
+    "f2Characteristic": "No personalized tutoring",
+    "f3Characteristic": "No access to extra material",
+    "p1Characteristic": "Sign up for unlimited courses",
+    "p2Characteristic": "Personalized tutoring",
+    "p3Characteristic": "Access to extra material",
+    "choosePlan": "Choose plan",
+    "learner": "Learner"
+  },
+  "cardPayment": {
+    "myPayment": "Make your payment",
+    "nameCard": "Name on Card",
+    "numberCard": "Card number",
+    "eDate": "Expire date (MM/YY)",
+    "sCode": "Security code (CVC)",
+    "email": "Email",
+    "pay": "Pay",
+    "cancel": "Cancel"
+  },
+  "paymentSuccessful": {
+    "title": "Payment Successful",
+    "thankYouMessage": "Thank you for choosing us!",
+    "subscriptionBenefits": "You will have access to new benefits with your new subscription. Take advantage and continue learning with LearnE.",
+    "goToPlans": "Go to plans"
+  },
+  "exams": {
+    "exam": "Exam",
+    "minutes": "minutes",
+    "aRemaining": "attempts remaining",
+    "send": "Send",
+    "rAnswer": "Write your answer"
+  },
+  "courseRegistration": {
+    "opinions": "Opinions",
+    "join": "Join",
+    "publishedDate": "Published",
+    "description": "Description"
+  },
+  "courses": {
+    "course": "Courses",
+    "course1": "Course",
+    "courses": "My courses",
+    "rating": "Leave a rating",
+    "leave": "Go to My Courses",
+    "unit": "Unit",
+    "section": "Section",
+    "exam": "Exam",
+    "description": "General description",
+    "tutorials": "Tutorials",
+    "materials": "Extra Materials",
+    "ratings": "Ratings",
+    "content": "Edit content"
+  },
+  "mainPage": {
+    "courses": "My Courses",
+    "management": "Course Management",
+    "calendar": "Calendar",
+    "plans": "Plans",
+    "profile": "Profile",
+    "logOut": "Log Out",
+    "grades": "Grades",
+    "catalog": "Catalog"
+  },
+  "tutoring": {
+    "res": "Tutoring reserved",
+    "dis": "Tutoring register",
+    "register": "Register",
+    "reserved": "Reserved",
+    "enter": "Enter",
+    "free": "Now you cannot access this content. Try our Premium Plan for access"
+  },
+  "profile": {
+    "teacher": "Teacher",
+    "student": "Student",
+    "information": "Information",
+    "fullName": "Full name",
+    "username": "Username",
+    "email": "Email",
+    "typePlan": "Type plan",
+    "free": "Free",
+    "premium": "Premium",
+    "nothing": "Nothing"
+  },
+  "material": {
+    "sub": "Extra Materials",
+    "free": "Now you cannot access this content. Try our Premium Plan for access",
+    "enter": "Enter"
+  },
+  "grades": {
+    "course": "Course",
+    "exam": "Exam",
+    "grades": "Grades",
+    "yhnScore": "You have no scores"
+  },
+  "courseDetails": {
+    "register": "Register",
+    "content": "Content and resources",
+    "features": "Course Features",
+    "prior": "Prior Knowledge",
+    "presentation": "Presentation",
+    "who": "Find out who teaches the course of"
+  },
+  "tutorialsManagement": {
+    "tutoring": "Tutoring",
+    "date": "Date",
+    "hour": "Hour",
+    "state": "State",
+    "add": "Add",
+    "rTutorials": "Reserved tutorials",
+    "uTutorials": "Unreserved tutorials",
+    "reserved": "Reserved",
+    "unreserved": "Unreserved",
+    "student": "Student",
+    "link": "Link",
+    "update": "Update",
+    "cancel": "Cancel",
+    "uLink": "Update link"
+  },
+  "landingpage": {
+    "LearneLogo": "LearnE Logo",
+    "_logo": "_logo",
+    "inicio": "home",
+    "Suscríbete": "Subscribe",
+    "Conoce": "Learn more",
+    "AcercaNosotros": "About Us",
+    "LogIn": "Log In",
+    "Registrarse": "sign up",
+    "falta2": "Read what our customers say about Learn.E",
+    "falta": "These are the main categories you can find on LearnE\n\n",
+    "slogan": "Learn anytime, in the best way",
+    "description": "With Learn.E, you can access a variety of courses and material on different topics, with the best tutors. Anytime, at your own pace.",
+    "subscribeText": "Sign up for courses and learn your way",
+    "learnMore": "From calculus to physics, choose what you want to strengthen your knowledge on.",
+    "coursesWithMaterial": "Courses with 100% up-to-date material",
+    "trainedTutors": "Trained tutors to help you",
+    "varietySubjects": "Variety of subjects",
+    "categoriesTitle": "Courses with variety for everyone",
+    "testimonialsTitle": "Our Testimonials",
+    "plansTitle": "We have the following plans for you",
+    "questionsSection": "Do you have questions?",
+    "copyright": "© Copyright 2024 - LearnE | All rights reserved | Avenida La Molina 234",
+    "contactTitle": "Contact Channels",
+    "faqTitle": "Write us a question",
+    "faqDescription": "Have a question? Contact us directly by filling out this form, and we will try to resolve your question as soon as possible."
+  },
+  "categories": {
+    "calculo": "Calculus",
+    "fisica": "Physics",
+    "quimica": "Chemistry",
+    "programacion": "Programming",
+    "politica": "Politics"
+  },
+  "testimonial1": {
+    "name": "Daniel Velarde",
+    "role": "Professor of University Calculus",
+    "quote": "\"As a professor, this platform helped me find more students who need my courses and tutoring. I’m satisfied with LearnE's functionality.\""
+  },
+  "testimonial2": {
+    "name": "Susana Almeida",
+    "role": "Industrial Engineering Student",
+    "quote": "\"LearnE helped me review for my final exams in calculus and physics. The material is excellent, with many examples and exercises.\""
+  },
+  "testimonial3": {
+    "name": "Samuel De Luque",
+    "role": "Civil Engineering Student",
+    "quote": "\"I wasn’t doing very well in the early cycles, but after taking writing courses on LearnE, I raised my grades and passed with much more ease.\""
+  },
+  "plans": {
+    "price": "Free S/. 0 al mes"
+  },
+  "learner": {
+    "price": "Learner S/. 20 per month"
+
+  },
+  "feature":{
+    "features": "Maximum 3 courses enrolled at a time",
+    "features2":"No personalized tutoring",
+    "features3": "No certificates"
+  },
+  "feature2":{
+    "features": "Sign up for unlimited courses",
+    "features2":"Personalized tutoring",
+    "features3": "Access to certificates"
+  },
+  "contactInfo": {
+    "email": "support.learne@gmail.com",
+    "phone": "+51 01 505 0505",
+    "location": "La Molina - Peru"
+  },
+  "formLabels": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message"
+  },
+  "footer": {
+    "company": "Company",
+    "getHelp": "Get Help",
+    "community": "Community",
+    "followUs": "Follow us",
+    "getApp": "GET THE APP"
+  },
+  "appLinks": {
+    "googlePlay": "logo_googlePlay"
+  }
+}
+
+
+

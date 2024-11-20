@@ -1,0 +1,216 @@
+{
+  "allPlans": {
+    "availablePlans": "Planes disponibles",
+    "free": "Gratis",
+    "perMonth": "por mes",
+    "f1Characteristic": "Máximo 3 cursos inscritos a la vez",
+    "f2Characteristic": "Sin tutorías personalizadas",
+    "f3Characteristic": "Sin acceso a material extra",
+    "p1Characteristic": "Inscríbete a cursos ilimitados",
+    "p2Characteristic": "Tutorías personalizadas",
+    "p3Characteristic": "Acceso a material extra",
+    "choosePlan": "Elegir plan",
+    "learner": "Alumno"
+  },
+  "cardPayment": {
+    "myPayment": "Realice su pago",
+    "nameCard": "Nombre en la tarjeta",
+    "numberCard": "Número de tarjeta",
+    "eDate": "Fecha de vencimiento (MM/AA)",
+    "sCode": "Código de seguridad (CVC)",
+    "email": "Correo electrónico",
+    "pay": "Pagar",
+    "cancel": "Cancelar"
+  },
+  "paymentSuccessful": {
+    "title": "Pago Exitoso",
+    "thankYouMessage": "¡Gracias por contar con nosotros!",
+    "subscriptionBenefits": "Tendrás acceso a nuevos beneficios con tu nueva suscripción. Aprovecha y sigue estudiando con LearnE.",
+    "goToPlans": "Ir a planes"
+  },
+  "exams": {
+    "exam": "Examen",
+    "minutes": "minutos",
+    "aRemaining": "intentos restantes",
+    "send": "Enviar",
+    "rAnswer": "Escribe tu respuesta"
+  },
+  "courseRegistration": {
+    "opinions": "Opiniones",
+    "join": "Unirse",
+    "publishedDate": "Publicado",
+    "description": "Descripción"
+  },
+  "courses": {
+    "course": "Cursos",
+    "course1": "Curso",
+    "courses": "Mis cursos",
+    "rating": "Deja tu calificación",
+    "leave": "Ir a Mis Cursos",
+    "unit": "Unidad",
+    "section": "Sección",
+    "exam": "Exámen",
+    "description": "Descripción general",
+    "tutorials": "Tutorías",
+    "materials": "Materiales Extras",
+    "ratings": "Valoraciones",
+    "content": "Editar contenido"
+  },
+  "mainPage": {
+    "courses": "Mis Cursos",
+    "management": "Gestión de Cursos",
+    "calendar": "Calendario",
+    "plans": "Planes",
+    "profile": "Perfil",
+    "logOut": "Cerrar Sesión",
+    "grades": "Calificaciones",
+    "catalog": "Catálogo"
+  },
+  "tutoring": {
+    "res": "Tutorías reservadas",
+    "dis": "Tutorías disponibles",
+    "register": "Inscribirse",
+    "reserved": "Reservado",
+    "enter": "Ingresar",
+    "free": "Ahora no puedes acceder a este contenido. Prueba nuestro plan Premium para el acceso"
+  },
+  "profile": {
+    "teacher": "Profesor",
+    "student": "Estudiante",
+    "information": "Información",
+    "fullName": "Nombre completo",
+    "username": "Nombre de usuario",
+    "email": "Correo",
+    "typePlan": "Tipo de plan",
+    "free": "Gratis",
+    "premium": "Premium",
+    "nothing": "Ninguno"
+  },
+  "material": {
+    "sub": "Materiales Extras",
+    "free": "Ahora no puedes acceder a este contenido. Prueba nuestro plan Premium para el acceso",
+    "enter": "Ingresar"
+  },
+  "grades": {
+    "course": "Curso",
+    "exam": "Examen",
+    "grades": "Calificaciones",
+    "yhnScore": "No tienes calificaciones"
+  },
+  "courseDetails": {
+    "register": "Inscribirse",
+    "content": "Contenido y Recursos",
+    "features": "Características del Curso",
+    "prior": "Conocimientos Previos",
+    "presentation": "Presentación",
+    "who": "Conoce quién enseña el curso de"
+  },
+  "tutorialsManagement": {
+    "tutoring": "Tutorías",
+    "date": "Fecha",
+    "hour": "Hora",
+    "state": "Estado",
+    "add": "Añadir",
+    "rTutorials": "Tutoriales reservados",
+    "uTutorials": "Tutoriales no reservados",
+    "reserved": "Reservado",
+    "unreserved": "No reservado",
+    "student": "Estudiante",
+    "link": "Enlace",
+    "update": "Actualizar",
+    "cancel": "Cancelar",
+    "uLink": "Actualizar link"
+  },
+  "landingpage": {
+    "LearneLogo": "Logo LearnE",
+    "_logo": "_logo",
+    "inicio": "inicio",
+    "Conoce": "Conoce más",
+    "AcercaNosotros": "Acerca de Nosotros",
+    "LogIn": "Iniciar sesion",
+    "Registrarse": "Registrarse",
+    "falta2": "Lea lo que opinan nuestros clientes acerca de Learn.E",
+    "falta": "Estas son las categorías principales que puedes encontrar en LearnE\n\n",
+    "slogan": "Aprende cuando quieras, de la mejor manera",
+    "description": "Con Learn.E podrás acceder a varios cursos y material de diferentes temas, acompañado de los mejores tutores. Cuando quieras, en cualquier momento, a tu ritmo.",
+    "subscribeText": "Inscríbete a cursos y aprende a tu manera",
+    "learnMore": "Desde cálculo hasta física, elige en qué quieres reforzar tus conocimientos.",
+    "coursesWithMaterial": "Cursos con material 100% al día",
+    "trainedTutors": "Tutores capacitados para ayudarte",
+    "varietySubjects": "Variedad de materias",
+    "categoriesTitle": "Cursos con variedad para todos",
+    "plansTitle": "Tenemos los siguientes planes para ti",
+    "faqTitle": "Escríbenos una pregunta",
+    "faqDescription": "¿Tienes una duda? Contáctanos directamente llenando este formulario e intentaremos resolver tu duda lo antes posible.",
+    "contactTitle": "Canales de Contacto",
+    "questionsSection": "¿Tienes preguntas?",
+    "testimonialsTitle": "Nuestros Testimonios",
+    "Suscríbete": "Suscríbete",
+    "copyright": "© Copyright 2024 - LearnE | Todos los derechos reservados | Avenida La Molina 234"
+  },
+  "categories": {
+    "calculo": "Cálculo",
+    "fisica": "Física",
+    "quimica": "Química",
+    "programacion": "Programación",
+    "politica": "Política"
+  },
+  "testimonial1": {
+    "name": "Daniel Velarde",
+    "role": "Profesor de Cálculo Universitario",
+    "quote": "\"Como profesor, esta plataforma me ayudó a encontrar más alumnos que necesiten de mis cursos y mi asesoría. Estoy satisfecho con el funcionamiento de LearnE.\""
+  },
+  "testimonial2": {
+    "name": "Susana Almeida",
+    "role": "Estudiante de Ingeniería Industrial",
+    "quote": "\"LearnE me ayudó a repasar para mis exámenes finales de cálculo y física. El material es muy bueno y cuentan con muchos ejemplos y ejercicios.\""
+  },
+  "testimonial3": {
+    "name": "Samuel De Luque",
+    "role": "Estudiante de Ingeniería Civil",
+    "quote": "\"No me estaba yendo tan bien en los primeros ciclos cuando empecé a llevar cursos de redacción, pero con LearnE pude levantar mis notas y al final aprobé con mucha más facilidad.\""
+  },
+  "plans": {
+    "price": "Free S/. 0 al mes"
+  },
+  "feature":{
+    "features": "Máximo 3 cursos inscritos a la vez",
+    "features2":"Sin tutorías personalizadas",
+    "features3": "Sin certificados"
+  },
+  "learner": {
+    "price": "Learner S/. 20 al mes"
+  },
+  "feature2":{
+    "features": "Inscríbete a cursos ilimitados",
+    "features2":"Tutorías personalizadas",
+    "features3": "Acceso a certificados"
+  },
+
+  "contactInfo": {
+    "email": "support.learne@gmail.com",
+    "phone": "+51 01 505 0505",
+    "location": "La Molina - Perú"
+  },
+  "formLabels": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "subject": "Tema",
+    "message": "Mensaje"
+  },
+  "footer": {
+    "company": "Empresa",
+    "getHelp": "Obtén ayuda",
+    "community": "Comunidad",
+    "followUs": "Síguenos",
+    "getApp": "OBTÉN LA APLICACIÓN"
+  },
+  "appLinks": {
+    "googlePlay": "logo_googlePlay"
+  }
+
+
+
+
+}

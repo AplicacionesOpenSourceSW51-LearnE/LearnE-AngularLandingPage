@@ -1,0 +1,385 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #6200ea; /* Color de fondo morado */
+  padding: 10px 0;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+/* Sidenav */
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px;
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 20px;
+}
+
+.offcanvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 10px 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #6200ea;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons i {
+  margin: 0 10px;
+}
+
+.btn-close mat-icon {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+
+/* Navbar principal */
+.navbar {
+  background-color: #6200ea; /* Morado */
+  color: white;
+}
+
+.navbar .logo {
+  height: 40px;
+}
+
+.navbar .spacer {
+  flex: 1;
+}
+
+/* Enlaces dentro de la barra de navegación */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  color: #ffeb3b;
+}
+
+/* Botón de menú */
+.menu-btn mat-icon {
+  color: white;
+}
+
+/* Sidenav */
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.offcanvas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 10px 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ffeb3b;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #ffeb3b;
+}
+
+.btn-close mat-icon {
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+.mat-card {
+  background-color: transparent !important; /* Hacer transparente */
+  box-shadow: none !important; /* Eliminar sombra */
+  border: none; /* Eliminar borde */
+}
+/* Encabezado de la sección */
+.section-title {
+  margin-bottom: 40px;
+}
+.mat-card-content{
+  text-align: center;
+}
+.section-title h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-title p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Fondo de secciones */
+
+.iconbox {
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #E4F1FF;
+  color: #8172f3;
+  font-size: 34px;
+  flex: none;
+}
+.bg-body-coro {
+  background-color: #e9ecef;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
+/* Botones */
+.mat-flat-button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.mat-flat-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Imágenes de la galería */
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  margin-top:30px;
+}
+
+/* Tarjetas de servicio */
+/* SERVICE */
+.service {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.service::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #7027C3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s all ease;
+}
+
+
+.service:hover::after {
+  width: 100%;
+  height: 100%;
+  background: #8E8FFA;
+  z-index: -1;
+}
+
+.service:hover h5,
+.service:hover p {
+  color: white;
+}
+
+.service:hover .iconbox {
+  background-color: rgba(255,255,255,0.2);
+  color: white;
+}
+.getStarted {
+  border: none;
+  width: 85%;
+  border-radius: 16px;
+  background-color: rgb(82, 33, 99);
+  color: whitesmoke;
+  font-weight: bold;
+  box-shadow: 0 5px 0 rgb(52, 5, 68);
+  letter-spacing: 1.5px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+.getStarted:hover {
+  cursor: pointer;
+  background-color:  #7027C3;
+}
+.haveAccount {
+  border: 4px solid rgb(104, 19, 133);
+  width: 85%;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.250);
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  /* box-shadow: 0 2px 0 rgb(105, 19, 133); */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all .3s ease;
+}
+
+.haveAccount:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.450)
+}
+/* Testimonios */
+.testimonial-picture-person {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-picture-person img.user {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.profile {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile blockquote {
+  font-style: italic;
+  color: #495057;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Planes */
+.plains_info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plains_info h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.plains_info .benefits ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.plains_info .benefits ul li {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.plains_info .benefits ul li fs-6 {
+  font-size: 1rem;
+}
+mat-grid-tile {
+  min-height: 250px;
+}
+/* Estilo para el fondo morado del botón */
+.btn-purple {
+  background-color: #6f42c1; /* Fondo morado */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Eliminar subrayado */
+  margin: 0 auto;
+}
+
+.btn-purple:hover {
+  background-color: #5a32a3; /* Color morado más oscuro al pasar el mouse */
+}
